@@ -9,7 +9,6 @@
 #         if i % 2 != 0:
 #             s += list[i]
 #     print("Сумма равна: ", (s))
-
 # list = [2, 3, 5, 9, 3]
 # sum_index(list)
 
@@ -24,7 +23,6 @@
 #     l = len(list)//2 + 1 if len(list) % 2 != 0 else len(list)//2
 #     new_list = [list[i]*list[len(list)-i-1] for i in range(l)]
 #     print(new_list)
-
 # list = [2, 3, 5, 5, 5]
 # prod_lst(list)
 
@@ -34,6 +32,7 @@
 #дробной части элементов.
 #Пример:
 # - [1.1, 1.2, 3.1, 5, 10.01] => 0.19
+
 # def float_min_max(list):
 #     minf = 1.
 #     maxf = 0.
@@ -45,7 +44,6 @@
 #             if curr > maxf:
 #                 maxf = curr
 #     return maxf - minf
-
 # list = [1.1, 1.2, 3.1, 5, 10.01]
 # print(float_min_max(list))
 
@@ -56,6 +54,7 @@
 # - 45 -> 101101
 # - 3 -> 11
 # - 2 -> 10
+
 # a = ''
 # print('Перевод десятичного числа в двоичное')
 # b = int(input('Введите число: '))
